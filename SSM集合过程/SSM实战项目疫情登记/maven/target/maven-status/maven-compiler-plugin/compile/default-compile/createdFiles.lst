@@ -1,0 +1,8 @@
+com\eryueniao\epidemic\common\DateConverter.class
+com\eryueniao\epidemic\SpringMVCConfig.class
+com\eryueniao\epidemic\SpringConfig.class
+com\eryueniao\epidemic\bean\UserInfo.class
+com\eryueniao\epidemic\EpidemicApplication.class
+com\eryueniao\epidemic\bean\EpidemicInfo.class
+com\eryueniao\epidemic\bean\ProvinceInfo.class
+com\eryueniao\epidemic\MybatisConfig.class
