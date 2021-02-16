@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+</head>
+<body>
+<h2 >Welcome To Majiaxueyuan For Study</h2>
+<h2 th:text="${name}"></h2>
+
+<input type="text" class="layui-input" th:value="${name}" />
+<table border="1">  
+     <tr>  
+           <th>用户名</th>  
+         </tr>  
+     <tr th:each=" l: ${a}">  
+            <td th:text= "${l}"></td>  
+         </tr>
+</table>
+<img th:src="@{1.jpg}"/>
+</body>
+</html>
